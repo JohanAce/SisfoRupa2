@@ -32,11 +32,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void konsultasi(View view) {
-        Intent intent = new Intent(this, konsultasi.class);
+        Intent intent = new Intent(this, blueprint.class);
         startActivity(intent);
     }
     public void blueprint(View view) {
-        Intent intent = new Intent(this, blueprint.class);
+        Intent intent = new Intent(this, konsultasi.class);
         startActivity(intent);
     }
     public void saran(View view) {

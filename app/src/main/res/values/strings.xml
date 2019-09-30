@@ -10,4 +10,9 @@
     <string name="ikon2">Blueprint</string>
     <string name="saran">Saran</string>
     <string name="tentang">Tentang</string>
+    <string name="absen">Absen</string>
+    <string name="tugas">Tugas</string>
+    <string name="uts">UTS</string>
+    <string name="uas">UAS</string>
+    <string name="ht">Hitung</string>
 </resources>
