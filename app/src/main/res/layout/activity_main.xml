@@ -66,22 +66,21 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:orientation="vertical">
-                    <de.hdodenhof.circleimageview.CircleImageView
+                    <Button
+                        android:id="@+id/buttonSimulasinilai"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="20dp"
-                        android:src="@drawable/logo1"/>
+                        android:layout_gravity="top|center_horizontal"
+                        android:scaleType="centerCrop"
+                        android:background="@drawable/logo1"
+                        android:onClick="buttonSimulasinilai"/>
                     <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginTop="3dp"
-                        android:padding="3dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="bottom|center_horizontal"
+                        android:padding="5dp"
                         android:text="@string/simulasi_nilai"
-                        android:onClick="simulasi"
-                        android:textAlignment="center"
-                        android:textColor="@android:color/black"
-                        android:textSize="15sp"
                         android:textStyle="bold"/>
                 </LinearLayout>
 
@@ -91,22 +90,22 @@
                     android:layout_weight="1"
                     android:layout_margin="1dp"
                     android:orientation="vertical">
-                    <de.hdodenhof.circleimageview.CircleImageView
+
+                    <Button
+                        android:id="@+id/buttonCuaca"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="20dp"
-                        android:src="@drawable/logo2"/>
+                        android:layout_gravity="top|center_horizontal"
+                        android:scaleType="centerCrop"
+                        android:background="@drawable/logo2"
+                        android:onClick="buttonCuaca"/>
                     <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginTop="3dp"
-                        android:padding="3dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="bottom|center_horizontal"
+                        android:padding="5dp"
                         android:text="@string/cuaca"
-                        android:onClick="cuaca"
-                        android:textAlignment="center"
-                        android:textColor="@android:color/black"
-                        android:textSize="15sp"
                         android:textStyle="bold"/>
                 </LinearLayout>
 
@@ -116,22 +115,21 @@
                     android:layout_weight="1"
                     android:layout_margin="1dp"
                     android:orientation="vertical">
-                    <de.hdodenhof.circleimageview.CircleImageView
+                    <Button
+                        android:id="@+id/buttonNilai"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="20dp"
-                        android:src="@drawable/logo3"/>
+                        android:layout_gravity="top|center_horizontal"
+                        android:scaleType="centerCrop"
+                        android:background="@drawable/logo3"
+                        android:onClick="buttonNilai"/>
                     <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginTop="3dp"
-                        android:padding="3dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="bottom|center_horizontal"
+                        android:padding="5dp"
                         android:text="@string/nilai"
-                        android:onClick="nilai"
-                        android:textAlignment="center"
-                        android:textColor="@android:color/black"
-                        android:textSize="15sp"
                         android:textStyle="bold"/>
                 </LinearLayout>
 
@@ -141,22 +139,21 @@
                     android:layout_weight="1"
                     android:layout_margin="1dp"
                     android:orientation="vertical">
-                    <de.hdodenhof.circleimageview.CircleImageView
+                    <Button
+                        android:id="@+id/buttonProfil"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="20dp"
-                        android:src="@drawable/logo4"/>
+                        android:layout_gravity="top|center_horizontal"
+                        android:scaleType="centerCrop"
+                        android:background="@drawable/logo4"
+                        android:onClick="buttonProfil"/>
                     <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginTop="3dp"
-                        android:padding="3dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="bottom|center_horizontal"
+                        android:padding="5dp"
                         android:text="@string/profil"
-                        android:onClick="profil"
-                        android:textAlignment="center"
-                        android:textColor="@android:color/black"
-                        android:textSize="15sp"
                         android:textStyle="bold"/>
                 </LinearLayout>
 
@@ -175,22 +172,20 @@
                     android:layout_weight="1"
                     android:layout_margin="1dp"
                     android:orientation="vertical">
-                    <de.hdodenhof.circleimageview.CircleImageView
+                    <Button
+                        android:id="@+id/btnTelpon"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="20dp"
-                        android:src="@drawable/logo7"/>
+                        android:layout_gravity="top|center_horizontal"
+                        android:scaleType="centerCrop"
+                        android:background="@drawable/logo7" />
                     <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginTop="3dp"
-                        android:padding="3dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="bottom|center_horizontal"
+                        android:padding="5dp"
                         android:text="@string/ikon1"
-                        android:onClick="konsultasi"
-                        android:textAlignment="center"
-                        android:textColor="@android:color/black"
-                        android:textSize="15sp"
                         android:textStyle="bold"/>
                 </LinearLayout>
 
@@ -200,22 +195,23 @@
                     android:layout_weight="1"
                     android:layout_margin="1dp"
                     android:orientation="vertical">
-                    <de.hdodenhof.circleimageview.CircleImageView
+                    <Button
+                        android:id="@+id/btnMaps"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="20dp"
-                        android:src="@drawable/logo8"/>
+                        android:layout_gravity="top|center_horizontal"
+                        android:scaleType="centerCrop"
+                        android:background="@drawable/logo8"
+                        android:onClick="buttonIkon2"/>
+                    android:background="@drawable/worldwide" />
+
                     <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginTop="3dp"
-                        android:padding="3dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="bottom|center_horizontal"
+                        android:padding="5dp"
                         android:text="@string/ikon2"
-                        android:onClick="blueprint"
-                        android:textAlignment="center"
-                        android:textColor="@android:color/black"
-                        android:textSize="15sp"
                         android:textStyle="bold"/>
                 </LinearLayout>
 
@@ -225,22 +221,21 @@
                     android:layout_weight="1"
                     android:layout_margin="1dp"
                     android:orientation="vertical">
-                    <de.hdodenhof.circleimageview.CircleImageView
+                    <Button
+                        android:id="@+id/buttonSaran"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="20dp"
-                        android:src="@drawable/logo5"/>
+                        android:layout_gravity="top|center_horizontal"
+                        android:scaleType="centerCrop"
+                        android:background="@drawable/logo5"
+                        android:onClick="buttonSaran"/>
                     <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginTop="3dp"
-                        android:padding="3dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="bottom|center_horizontal"
+                        android:padding="5dp"
                         android:text="@string/saran"
-                        android:onClick="saran"
-                        android:textAlignment="center"
-                        android:textColor="@android:color/black"
-                        android:textSize="15sp"
                         android:textStyle="bold"/>
                 </LinearLayout>
 
@@ -250,22 +245,21 @@
                     android:layout_weight="1"
                     android:layout_margin="1dp"
                     android:orientation="vertical">
-                    <de.hdodenhof.circleimageview.CircleImageView
+                    <Button
+                        android:id="@+id/buttonTentang"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="20dp"
-                        android:src="@drawable/logo6"/>
+                        android:layout_gravity="top|center_horizontal"
+                        android:scaleType="centerCrop"
+                        android:background="@drawable/logo6"
+                        android:onClick="buttonTentang"/>
                     <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginTop="3dp"
-                        android:padding="3dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="bottom|center_horizontal"
+                        android:padding="5dp"
                         android:text="@string/tentang"
-                        android:onClick="tentang"
-                        android:textAlignment="center"
-                        android:textColor="@android:color/black"
-                        android:textSize="15sp"
                         android:textStyle="bold"/>
                 </LinearLayout>
 
