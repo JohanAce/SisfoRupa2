@@ -6,13 +6,8 @@
     <string name="cuaca">Cuaca</string>
     <string name="nilai">Nilai</string>
     <string name="profil">Profil</string>
-    <string name="ikon1">Telepon</string>
-    <string name="ikon2">Maps</string>
+    <string name="ikon1">Konsultasi</string>
+    <string name="ikon2">Blueprint</string>
     <string name="saran">Saran</string>
-    <string name="tentang">About Us</string>
-    <string name="absen">Absen</string>
-    <string name="tugas">Tugas</string>
-    <string name="uts">UTS</string>
-    <string name="uas">UAS</string>
-    <string name="ht">Hitung</string>
+    <string name="tentang">Tentang</string>
 </resources>
